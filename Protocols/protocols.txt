@@ -1,0 +1,143 @@
+#ethertypes
+0800	IPv4
+0806	ARP
+0842	Wake-on-LAN
+22F0	Audio Video Transport Protocol (AVTP)
+22F3	IETF TRILL Protocol
+22EA	Stream Reservation Protocol
+6002	DEC MOP RC
+6003	DECnet Phase IV, DNA Routing
+6004	DEC LAT
+8035	Reverse Address Resolution Protocol (RARP)
+809B	AppleTalk
+80F3	AppleTalk Address Resolution Protocol (AARP)
+8100	VLAN-tagged frame (IEEE 802.1Q) and Shortest Path Bridging IEEE 802.1aq with NNI compatibility
+8102	Simple Loop Prevention Protocol (SLPP)
+8103	Virtual Link Aggregation Control Protocol (VLACP)
+8137	IPX
+8204	QNX Qnet
+86DD	IPv6
+8808	Ethernet flow control
+8809	Ethernet Slow Protocols such as the Link Aggregation Control Protocol (LACP)
+8819	CobraNet
+8847	MPLS unicast
+8848	MPLS multicast
+8863	PPPoE Discovery Stage
+8864	PPPoE Session Stage
+887B	HomePlug 1.0 MME
+888E	EAP over LAN (IEEE 802.1X)
+8892	PROFINET Protocol
+889A	HyperSCSI (SCSI over Ethernet)
+88A2	ATA over Ethernet
+88A4	EtherCAT Protocol
+88A8	Service VLAN tag identifier (S-Tag) on Q-in-Q tunnel.
+88AB	Ethernet Powerlink[citation needed]
+88B8	GOOSE (Generic Object Oriented Substation event)
+88B9	GSE (Generic Substation Events) Management Services
+88BA	SV (Sampled Value Transmission)
+88BF	MikroTik RoMON (unofficial)
+88CC	LLDP
+88CD	SERCOS III
+88E3	Media Redundancy Protocol (IEC62439-2)
+88E5	MAC security (IEEE 802.1AE)
+88E7	Provider Backbone Bridges (PBB) (IEEE 802.1ah)
+88F7	Precision Time Protocol (PTP) over IEEE 802.3 Ethernet
+88F8	NC-SI
+88FB	Parallel Redundancy Protocol (PRP)
+8902	IEEE 802.1ag Connectivity Fault Management (CFM) Protocol / ITU-T Recommendation Y.1731 (OAM)
+8906	Fibre Channel over Ethernet (FCoE)
+8914	FCoE Initialization Protocol
+8915	RDMA over Converged Ethernet (RoCE)
+891D	TTEthernet Protocol Control Frame (TTE)
+893a	1905.1 IEEE Protocol
+892F	High-availability Seamless Redundancy (HSR)
+9000	ECTP
+9100	VLAN-tagged (IEEE 802.1Q) frame with double tagging
+F1C1	Redundancy Tag (IEEE 802.1CB Frame Replication and Elimination for Reliability)
+#IP Protocol numbers
+01	ICMP
+02	IGMP
+06	TCP
+11	UDP
+67	PIM
+#LSAPs
+00	Null SAP
+02	Individual LLC Sublayer Mgt
+03	Group LLC Sublayer Mgt
+04	SNA Path Control (individual)
+05	SNA Path Control (group)
+06	Reserved for DoD IP
+0E	ProWay-LAN
+18	Texas Instruments
+42	STP
+4E	EIA-RS 511
+5E	ISI IP
+7E	ISO 8208 (X.25 over IEEE 802.2 Type LLC)
+80	Xerox Network Systems (XNS)
+82	BACnet/Ethernet
+86	Nestar
+8E	ProWay-LAN (IEC 955)
+98	ARPANET Address Resolution Protocol (ARP)
+A6	RDE (route determination entity)
+AA	SNAP
+BC	Banyan Vines
+E0	IPX
+F0	NETBIOS
+F4	IBM LAN Management (individual)
+F5	IBM LAN Management (group)
+F8	IBM Remote Program Load (RPL)
+FA	Ungermann-Bass
+FE	OSI protocols ISO CLNS IS 8473
+FF	Global DSAP (broadcast to all)
+#SNAP PID
+2000	CDP
+2004	DTP
+809B	AppleTalk
+010B	PVSTP+
+#UDP&TCP ports
+7	ECHO
+19	CHARGEN
+20	FTP-DATA
+21	FTP-CONTROL
+22	SSH
+23	TELNET
+25	SMTP
+53	DNS
+79	FINGER
+80	HTTP
+110	POP3
+111	SUNRPC
+119	NNTP
+139	NETBIOS-SSN
+143	IMAP
+179	BGP
+389	LDAP
+443	HTTPS
+445	MICROSOFT-DS
+1080	SOCKS
+37	TIME
+67	DHCP
+68	DHCP
+69	TFTP
+137	NETBIOS-NS
+138	NETBIOS-DGM
+161	SNMP
+162	SNMP-TRAP
+500	ISAKMP
+514	SYSLOG
+520	RIP
+1900	SSDP
+5353	MDNS
+17500	DB-LSP-DISC
+33434	TRACEROUTE
+#-p
+ICMP	1
+HTTP	80
+HTTPS	443
+FTP-DATA	20
+FTP-CONTROL	21
+SSH	22
+TELNET	23
+TFTP	69
+ARP	2054
+
